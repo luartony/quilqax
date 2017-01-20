@@ -28,9 +28,11 @@ GOOGLE FONT
 /* =============================================================
 GENERAL STYLES
 ============================================================ */
+
 body {
 font-family: 'Ubuntu', sans-serif;
-color: #fff;
+color: #000;
+background-color: #fff;
 }
 
 section {
@@ -71,18 +73,18 @@ margin: 5px;
 
 .btn-custom-one {
 background-color: transparent;
-color: #fff;
+color: #000;
 border: 2px solid rgb(40, 141, 203);
 }
 
 .btn-custom-one:hover {
 background-color: rgb(40, 141, 203);
 text-decoration: none;
-color: #fff;
+color: #000;
 }
 
 .btn-custom-two {
-color: #fff;
+color: #000;
 background-color: rgb(40, 141, 203);
 border: 2px solid rgb(40, 141, 203);
 }
@@ -90,7 +92,7 @@ border: 2px solid rgb(40, 141, 203);
 .btn-custom-two:hover {
 border: 2px solid rgb(40, 141, 203);
 text-decoration: none;
-color: #fff;
+color: #000;
 background-color: transparent;
 }
 
@@ -102,7 +104,7 @@ CUSTOM SELECT STYLES
     border: 2px solid #288dcb;
     border-radius: 0;
     box-shadow: 0 1px 1px rgba(0,0,0,0.075) inset;
-    color: #fff;
+    color: #000;
     font-size: 17px;
     height: 38px;
     padding: 0 8px;
@@ -131,7 +133,7 @@ color: #FFF;
 }
 
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:hover {
-color: #fff;
+color: #000;
 font-weight: 900;
 font-family: 'Oswald', sans-serif;
 }
@@ -190,7 +192,7 @@ border-radius: 5px;
 -moz-border-radius: 5px;
 -webkit-border-radius: 5px;
 margin-bottom: 40px;
-background-color: rgba(255, 255, 255, 0.07);
+background-color: rgba(0, 0, 0, 0.07);
 cursor: pointer;
 -webkit-transition: all 0.5s ease-in-out;
 -moz-transition: all 0.5s ease-in-out;
@@ -199,7 +201,7 @@ transition: all 0.5s ease-in-out;
 }
 
 #services .services-wrapper:hover {
-background-color: rgba(255, 255, 255, 0.20);
+background-color: rgba(0, 0, 0, 0.20);
 }
 
 #services h3 {
@@ -221,9 +223,9 @@ PRICING SECTION STYLES
 margin-bottom: 30px;
 margin-top: 50px;
 text-align: center;
-box-shadow: 0 0 5px rgba(0, 0, 0, .5);
-background-color: rgba(255, 255, 255, 0.1);
-color: #fff;
+box-shadow: 0 0 5px rgba(255, 255, 255, .5);
+background-color: rgba(0, 0, 0, 0.1);
+color: #000;
 line-height: 30px;
 cursor: pointer;
 -webkit-transition: all 0.5s ease-in-out;
@@ -268,12 +270,12 @@ margin-top: 22px;
 }
 
 .light-pricing .type {
-background-color: rgba(0, 0, 0, 0.40);
+background-color: rgba(255, 255, 255, 0.40);
 padding: 30px 20px;
 font-weight: 900;
 text-transform: uppercase;
 font-size: 30px;
-color: rgb(40, 141, 203);
+color: rgb(0, 0, 0);
 }
 
 .light-pricing .pricing-footer {
@@ -305,7 +307,7 @@ WORK SECTION STYLES
 
 #work .caegories a.active {
 background-color: transparent;
-color: #fff;
+color: #000;
 }
 
 .isotope .isotope-item {
@@ -320,7 +322,7 @@ border-radius: 5px;
 -moz-border-radius: 5px;
 -webkit-border-radius: 5px;
 margin-bottom: 40px;
-background-color: rgba(255, 255, 255, 0.1);
+background-color: rgba(0, 0, 0, 0.1);
 cursor: pointer;
 -webkit-transition: all 0.5s ease-in-out;
 -moz-transition: all 0.5s ease-in-out;
@@ -376,9 +378,9 @@ background-position: center;
 -webkit-background-size: cover;
 padding: 150px 0 10px;
 /*background-image: url('../img/girl-big.jpg');*/
-border-top: 1px solid #fff;
-border-right: 1px solid #fff;
-border-left: 1px solid #fff;
+border-top: 1px solid #000;
+border-right: 1px solid #000;
+border-left: 1px solid #000;
 border-radius: 10px 10px 0px 0px;
 }
 
@@ -395,7 +397,7 @@ color: rgb(40, 141, 203);
 z-index: 999;
 font-size: 40px;
 padding: 15px 22px;
-background-color: #fff;
+background-color: #000;
 -webkit-transition: all 0.8s ease-in-out;
 -moz-transition: all 0.8s ease-in-out;
 -o-transition: all 0.8s ease-in-out;
@@ -403,7 +405,7 @@ transition: all 0.8s ease-in-out;
 }
 
 .team-wrapper > .team-inner > a:hover {
-color: #fff;
+color: #000;
 text-decoration: none;
 background-color: rgb(40, 141, 203);
 }
@@ -412,9 +414,9 @@ background-color: rgb(40, 141, 203);
 .team-wrapper .description {
 padding: 30px 20px 20px;
 text-align: center;
-border-bottom: 1px solid #fff;
-border-right: 1px solid #fff;
-border-left: 1px solid #fff;
+border-bottom: 1px solid #000;
+border-right: 1px solid #000;
+border-left: 1px solid #000;
 }
 
 .team-wrapper .description h5 {
@@ -428,7 +430,7 @@ CONTACT SECTION STYLES
 ==============================*/
 
 #contact .contact-wrapper {
-background-color:rgba(255, 255, 255, 0.1);
+background-color:rgba(0, 0, 0, 0.1);
 padding: 20px;
 border-radius: 5px;
 -moz-border-radius: 5px;
