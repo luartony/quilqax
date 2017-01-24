@@ -336,7 +336,7 @@ WORK SECTION STYLES
 #work .work-wrapper:hover {
     background-color: transparent;
     border: 1px solid rgb(146, 0, 10);
-
+    transform: rotate(2deg);
     opacity: .80; /* standard: ff gt 1.5, opera, safari */
     -ms-filter: "alpha(opacity=80)"; /* ie 8 */
     filter: alpha(opacity=80); /* ie lt 7 */
